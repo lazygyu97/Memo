@@ -51,7 +51,7 @@ public class MemoService {
         // 해당 메모가 DB에 존재하는지 확인
         Memo memo = findMemo(id);
 
-        // memo 삭제
+        // memo 삭제션
         memoRepository.delete(memo);
 
         return id;
