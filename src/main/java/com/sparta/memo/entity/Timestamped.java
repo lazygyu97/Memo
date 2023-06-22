@@ -6,10 +6,8 @@ import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
-import java.sql.Time;
-import java.sql.Timestamp;
+
 import java.time.LocalDateTime;
-import java.util.Date;
 
 @Getter
 @MappedSuperclass //jpa entity 해당 추상 클래스를 상속할 경우 추상 클래스에 선언한 멤버 변수를 column으로 인식해준다.

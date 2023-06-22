@@ -1,10 +1,8 @@
 package com.sparta.memo.dto;
 
 import com.sparta.memo.entity.Memo;
-import com.sparta.memo.entity.Timestamped;
 import lombok.Getter;
 
-import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
 @Getter
