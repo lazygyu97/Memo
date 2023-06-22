@@ -17,7 +17,7 @@ public class MemoController {
 
     @Autowired
     public MemoController(MemoService memoService) {
-        this.memoService =memoService;
+        this.memoService = memoService;
     }
 
 
